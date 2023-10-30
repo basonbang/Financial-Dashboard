@@ -1,3 +1,7 @@
+/* Uses Tailwind, a CSS framwork that allows you to write utility classes directly in JSX markup. Utility classes are pre-built classes
+   that are applied inline and are scoped to components. It removes the risk of style collisions and large stylesheet sizes.
+*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

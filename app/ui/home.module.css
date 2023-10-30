@@ -1,0 +1,9 @@
+/* CSS Modules - Scope CSS to a component by creating unique class name and then passing it as a prop to an element*/
+
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
