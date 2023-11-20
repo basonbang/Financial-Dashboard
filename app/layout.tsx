@@ -1,5 +1,12 @@
 import '@/app/ui/global.css'; // ⭐ Good practice to import CSS to top-level component
 import { inter } from '@/app/ui/fonts'; 
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Acme Dashboard',
+  description: 'The official Next.js Course Dashboard, built with App Router.',
+  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+};
 
 // Defines 'RootLayout' component. Wraps all child components in <html> and <body> tags.
 export default function RootLayout({
